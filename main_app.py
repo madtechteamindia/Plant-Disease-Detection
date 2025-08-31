@@ -9,7 +9,7 @@ import tensorflow as tf
 model = load_model('plant_disease_model.h5')
                     
 # Name of Classes
-CLASS_NAMES = ('Tomato-Bacterial_spot', 'Potato-Barly blight', 'Corn-Common_rust')
+CLASS_NAMES = ('Tomato-Bacterial_spot', 'Potato-Barly blight', 'Corn-Common_rust','Hibiscus-leaf Spot','Mango-leaf spot or bacterial black spot',Papaya-Ringspot virus')
 
 # Setting Title of App
 st.title("Plant Disease Detection")
