@@ -12,7 +12,7 @@ model = load_model('plant_disease_model.h5')
 CLASS_NAMES = ('Tomato-Bacterial_spot', 'Potato-Barly blight', 'Corn-Common_rust')
 
 # Setting Title of App
-st.title("Plant Disease Detection")
+st.title("FarmMate Plant Disease Detection")
 st.markdown("Upload an image of the plant leaf")
 
 # Uploading the dog image
